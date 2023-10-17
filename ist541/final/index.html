@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>A Midwife Life</title>
 	<link href="css/final.css" rel="stylesheet" type="text/css">
+	<script <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,14 @@
 		
 	<p style="text-align:center"> Welcome to the Mum's the Word mini website! Here, you will see a small glimpse of my midwifery life. Hover over the picture!</p>
 	
-	<img src="img/Mumsdoor.jpeg" alt="Picture of a door." height="600" />
+	<img src="img/Mumsdoor.jpeg" alt="Picture of a door." height="600" onmouseenter="displayalert()"/>
+
+
+<script>
+   function displayalert() {
+      alert("Welcome!")
+      }
+</script>
 	
 </body>
 </html>
