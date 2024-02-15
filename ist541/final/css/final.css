@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: lightcoral;  
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  antiquewhite; 
+	color:  black; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: mediumaquamarine; 
+	color: black; 
+}
+
+p {
+		text-align: center;
+		font-size:30px;
+		color: black;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	background-color: #C298D3;
+	font-weight: bold;
+	font-size: 150%;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}
+
+.stepImage img {
+    width:100%;
+    height:auto;
+}
+
+strong {
+  font-weight: 800;
+}
+
+.warning {
+	background-color: #FBB8C4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.material-icons {
+	color:red;
+	font-size:3em;
+}
+
+
