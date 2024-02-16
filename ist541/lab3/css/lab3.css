@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
 body {
@@ -18,3 +19,25 @@ a:hover {
 	background-color: mediumaquamarine; 
 	color: black; 
 }
+=======
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: lightcoral;  
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  antiquewhite; 
+	color:  black; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: mediumaquamarine; 
+	color: black; 
+}
+>>>>>>> f0b11218c096df246ccc12f7955f92a196127135
